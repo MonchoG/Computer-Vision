@@ -1,1 +1,2 @@
 # Computer-Vision
+This repository will cover and contain computer vision components and techniques used for image processing. All the information and knowledge will be gained during lectures and self-study.
