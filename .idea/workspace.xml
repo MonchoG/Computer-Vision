@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="60546ada-f05d-4798-b7ed-fbdad98c192e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/morphology/morphology.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/morphology/morphology.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/thresholding/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/thresholding/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/thresholding/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/thresholding/thresholded_127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/thresholding/thresholded_140.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/thresholding/thresholded_160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/thresholding/thresholded_180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/thresholding/thresholded_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/thresholding/thresholded_200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/thresholding/thresholded_227.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/thresholding/thresholded_40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/thresholding/thresholded_60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/thresholding/thresholded_80.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,59 +25,32 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Computer_Vision$transformations.coverage" NAME="transformations Coverage Results" MODIFIED="1553416969762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/transformations" />
-    <SUITE FILE_PATH="coverage/Computer_Vision$main.coverage" NAME="main Coverage Results" MODIFIED="1553681044572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/thresholding" />
+    <SUITE FILE_PATH="coverage/Computer_Vision$main.coverage" NAME="main Coverage Results" MODIFIED="1553696045867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/thresholding" />
     <SUITE FILE_PATH="coverage/Computer_Vision$morphology.coverage" NAME="morphology Coverage Results" MODIFIED="1552406039931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/morphology" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_20.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_40.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_60.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_80.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_127.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_140.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_160.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_180.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_200.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/modules/thresholding/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="100" selection-start-line="19" selection-end-line="100" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_227.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/documentation/Threshold/report-thresholding-Miroslav.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="265">
+                <caret line="213" column="3" selection-start-line="213" selection-start-column="3" selection-end-line="213" selection-end-column="3" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -92,25 +78,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/morphology/morphology.py" />
         <option value="$PROJECT_DIR$/modules/transformations/transformations.py" />
         <option value="$PROJECT_DIR$/documentation/Transformations/report-transformations-Miroslav.md" />
+        <option value="$PROJECT_DIR$/modules/morphology/morphology.py" />
         <option value="$PROJECT_DIR$/modules/thresholding/main.py" />
+        <option value="$PROJECT_DIR$/documentation/Threshold/report-thresholding-Miroslav.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="425" />
-    <option name="y" value="4" />
-    <option name="width" value="974" />
-    <option name="height" value="1087" />
+    <option name="x" value="72" />
+    <option name="y" value="-13" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,25 +107,24 @@
             <path>
               <item name="Computer-Vision" type="b2602c69:ProjectViewProjectNode" />
               <item name="Computer-Vision" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Computer-Vision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Computer-Vision" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="Threshold" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Computer-Vision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Computer-Vision" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="Transformations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Computer-Vision" type="b2602c69:ProjectViewProjectNode" />
               <item name="Computer-Vision" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Computer-Vision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Computer-Vision" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="histogram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Computer-Vision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Computer-Vision" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="morphology" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Computer-Vision" type="b2602c69:ProjectViewProjectNode" />
@@ -151,6 +136,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,10 +144,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal\GitHub\Computer-Vision\documentation\Threshold\images" />
+      <recent name="D:\Personal\GitHub\Computer-Vision\modules\thresholding" />
       <recent name="D:\Personal\GitHub\Computer-Vision\documentation\Transformations\images" />
       <recent name="D:\Personal\GitHub\Computer-Vision\modules\transformations" />
       <recent name="D:\Personal\GitHub\Computer-Vision\modules\morphology" />
@@ -209,6 +197,9 @@
       <module name="Computer-Vision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/thresholding" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -271,6 +262,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.transformations" />
         <item itemvalue="Python.morphology" />
       </list>
@@ -291,30 +283,34 @@
       <workItem from="1553064538842" duration="23423000" />
       <workItem from="1553159580976" duration="10690000" />
       <workItem from="1553415632501" duration="2220000" />
-      <workItem from="1553679090022" duration="6920000" />
+      <workItem from="1553679090022" duration="21971000" />
+      <workItem from="1553760236068" duration="505000" />
+      <workItem from="1553764641183" duration="4372000" />
+      <workItem from="1554016219027" duration="14860000" />
+      <workItem from="1554032872494" duration="59000" />
+      <workItem from="1554032976182" duration="1254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61272000" />
+    <option name="totallyTimeSpent" value="97373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12313433" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18070363" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32996973" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="4" visible="true" weight="0.32896066" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32996973" />
+      <window_info anchor="bottom" id="Python Console" order="4" visible="true" weight="0.28456104" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32996973" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.29667002" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.3985873" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.2986882" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -326,31 +322,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="right" x="0" y="0" width="434" height="896" id="Documentation" order="6" side_tool="true" weight="0.32995737" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.122068234" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="4" weight="0.32896066" />
-      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32996973" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.29667002" />
-      <window_info active="true" anchor="bottom" id="Debug" order="9" visible="true" weight="0.3985873" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" x="0" y="0" width="434" height="896" id="Documentation" order="0" side_tool="true" weight="0.32995737" />
-      <window_info anchor="right" x="652" y="191" width="616" height="697" id="SciView" order="1" weight="0.3283582" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="JSON Viewer" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -369,6 +340,31 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>threshold_new = (mean_below + mean_above)*0.5</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>threshold_new = (mean_below + mean_above)/2</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>threshold_new = (mean_below + mean_above)/22</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>threshold_new = (mean_below + mean_above)/5</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>threshold_new = (mean_below + mean_above) * 0.5</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>img[i][j]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -381,238 +377,124 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/matplotlib/figure.py">
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_160_135.13978671724698.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_127_111.21778000141325.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_60_77.2049070193209.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_40_69.2065404698857.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_20_60.29899078269951.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_60_75.48988688265796.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_80_89.06361999445899.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_127_101.96366777065028.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_140_99.50203856162896.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_160_102.47214889229558.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_180_99.95855681685012.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_200_101.47968573041123.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_40_65.23713152993007.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_127_129.8596298067963.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_140_142.1609139943954.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_160_158.43509552973526.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_180_171.86286751034064.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_200_179.04275816095486.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_227_101.96366777065028.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_227_177.16593678066658.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresh1.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresh2.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresh3.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresh4.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresh5.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/opencv_thresh_otsu_40.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_40_96.56096672588389.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_40_129.78157479156286.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_60_104.55307160946523.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_80_112.47475568871394.png" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/imutils/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        <state>
+          <folding>
+            <element signature="e#148#182#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/transformations/final.png" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/matplotlib/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="641" selection-start-line="641" selection-end-line="641" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/modules/morphology/test.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/matplotlib/axes/_axes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="5493" selection-start-line="5493" selection-end-line="5493" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/erosion_opencv.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/WithErosion.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/custom_thresh_clean.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/dilitation_opencv.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/opencv_thresh_clean.png" />
+    <entry file="file://$PROJECT_DIR$/modules/morphology/Capture.PNG">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/matplotlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="1809" selection-start-line="1809" selection-end-line="1809" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/modules/morphology/test.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="2700" selection-start-line="2700" selection-end-line="2700" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/modules/morphology/objects.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/transformations/tennis_court_affined.png" />
-    <entry file="file://$PROJECT_DIR$/modules/transformations/tennis_court_warped.png" />
-    <entry file="file://$PROJECT_DIR$/modules/transformations/assignment.txt" />
-    <entry file="file://$PROJECT_DIR$/modules/transformations/result1.png" />
-    <entry file="file://$PROJECT_DIR$/modules/transformations/resultWarp.png" />
-    <entry file="file://$PROJECT_DIR$/modules/transformations/tennis_court.jpg" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/image.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/image_resized.jpg" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1392504071/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8824" column="4" selection-start-line="8824" selection-start-column="4" selection-end-line="8824" selection-end-column="4" />
+        <state relative-caret-position="226">
+          <caret line="5997" column="7" lean-forward="true" selection-start-line="5997" selection-start-column="7" selection-end-line="5997" selection-end-column="7" />
           <folding>
             <element signature="e#209#329#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/transformations/cat_in_a_phone.png" />
-    <entry file="file://$PROJECT_DIR$/documentation/Morphology/Report-Morphology-Miroslav-429556.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="731">
-            <caret line="85" column="38" lean-forward="true" selection-start-line="85" selection-end-line="86" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/transformations/transformations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="139" column="32" selection-start-line="139" selection-start-column="32" selection-end-line="139" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/transformations/top_view.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/transformations/tennis_court.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/transformations/phone.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/transformations/cat_in_the_phone.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/transformations/cat_affined.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/transformations/cat.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/Transformations/report-transformations-Miroslav.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="153" column="3" selection-start-line="153" selection-start-column="3" selection-end-line="153" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/histogram/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/filters/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://Python/#D:/Personal/GitHub/Computer-Vision/modules/thresholding/main.py">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#D:/Personal/GitHub/Computer-Vision/modules/thresholding/main.py</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="822.5" y="307.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Inner Classes</Category>
-            <Category>Fields</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="196" selection-start-line="196" selection-end-line="196" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_149.53441993497725.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_130.04092731163837.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_89.22526023484102.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_83.21402033695036.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_78.49268821604599.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_74.89726632086165.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_71.9574470931727.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_115.46118054388931.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_125.58751732221927.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_124.18194926669902.png">
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/image.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/morphology/morphology.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="258">
+          <caret line="250" selection-start-line="250" selection-end-line="253" selection-end-column="2" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1553685931375" expanded="true" signature="1837:1885" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_80.png">
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/countours_test.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_40.png">
+    <entry file="file://$PROJECT_DIR$/documentation/Threshold/images/opencv_thresh_otsu_127.png" />
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="100" selection-start-line="19" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/Transformations/report-transformations-Miroslav.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/thresholding/objects.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_20.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_60.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_127.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_140.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_160.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_180.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_200.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/thresholding/thresholded_227.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/documentation/Threshold/report-thresholding-Miroslav.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="265">
+            <caret line="213" column="3" selection-start-line="213" selection-start-column="3" selection-end-line="213" selection-end-column="3" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

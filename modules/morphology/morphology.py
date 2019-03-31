@@ -351,7 +351,7 @@ def measure_length(img, width):
 # opening(gray_img)
 # closing(gray_img)
 # skeleton(gray_img)
-
-gray_img2 = cv2.cvtColor(cv2.imread("objects.png"), cv2.COLOR_BGR2GRAY)
-cv2.imwrite('gray_image_objects.png', gray_img2)
-measure_length(gray_img2, 0.955)
+#
+# gray_img2 = cv2.cvtColor(cv2.imread("objects.png"), cv2.COLOR_BGR2GRAY)
+# cv2.imwrite('gray_image_objects.png', gray_img2)
+# measure_length(gray_img2, 0.955)
