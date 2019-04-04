@@ -48,7 +48,7 @@ def find_faces(image, encodings, boxes, color):
                       (b, g, r), 2)
         y = top - 15 if top - 15 > 15 else top + 15
         cv2.putText(image, name, (left, y), cv2.FONT_HERSHEY_SIMPLEX,
-                    0.75, (0, 255, 0), 2)
+                    0.75, (b, g, r), 2)
     return image
 
 
@@ -58,13 +58,17 @@ def extract_face(image, name):
     box_frontal = get_boxes('frontal_face', gray)
     box_profile = get_boxes('profile_face', gray)
 
-    if box_profile:
+    if box_frontal:
+        cascade = 'frontal'
+        box = box_frontal
+
+    elif box_profile:
         cascade = 'profile'
         box = box_profile
 
     else:
-        cascade = 'frontal'
-        box = box_frontal
+        cascade = 'profile_flipped'
+        box = get_boxes('profile_face_flipped', gray)
 
     for face in box:
         (top, right, bottom, left) = face
@@ -80,13 +84,17 @@ def get_boxes(detect_area, image):
     elif detect_area.__contains__('frontal_face'):
         cascade = "haarcascade_frontalface_default.xml".format(haarcascade)
 
+    elif detect_area.__contains__('profile_flip'):
+        image = cv2.flip(image, +1)
+        cascade = "haarcascade_profileface.xml".format(haarcascade)
+
     detector = cv2.CascadeClassifier('{}/{}'.format(haarcascade, cascade))
     rects = detector.detectMultiScale(image, scaleFactor=1.1,
-                                      minNeighbors=5, minSize=(30, 30))
+                                      minNeighbors=7, minSize=(25, 25))
     boxes = [(y, x + w, y + h, x) for (x, y, w, h) in rects]
     return boxes
 
 
 # The same as get boxes, but this uses face_recognition NN to detect
 def compute_face_locations(image, model):
-    return face_recognition.face_locations(image, model)
+    return face_recognition.face_locations(image, model='{}'.format(model))

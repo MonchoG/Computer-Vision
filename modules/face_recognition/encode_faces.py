@@ -23,12 +23,11 @@ for (i, imagePath) in enumerate(imagePaths):
     # to dlib ordering (RGB)
     image = cv2.imread(imagePath)
     rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-
+    print("[INFO] computing face locations ")
     # detect the (x, y)-coordinates of the bounding boxes
     # corresponding to each face in the input image
-    boxes = tool.compute_face_locations(rgb,
-                                        model="cnn")
-
+    boxes = tool.compute_face_locations(rgb, 'hog')
+    print("[INFO] Encoding face")
     # compute the facial embedding for the face
     encodings = tool.encode_faces(rgb, boxes)
 
@@ -38,9 +37,11 @@ for (i, imagePath) in enumerate(imagePaths):
         # encodings
         knownEncodings.append(encoding)
         knownNames.append(name)
+    print("[INFO] Done processing image {}/{}. ".format(i + 1,
+                                                        len(imagePaths)))
     # dump the facial encodings + names to disk
-    print("[INFO] serializing encodings...")
-    data = {"encodings": knownEncodings, "names": knownNames}
-    f = open("encodings.pickle", "wb")
-    f.write(pickle.dumps(data))
-    f.close()
+print("[INFO] serializing encodings...")
+data = {"encodings": knownEncodings, "names": knownNames}
+f = open("encodings.pickle", "rb+")
+f.write(pickle.dumps(data))
+f.close()
