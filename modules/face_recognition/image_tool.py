@@ -1,15 +1,16 @@
-import pickle
-
 import cv2
 import face_recognition
 from cv2.data import haarcascades as haarcascade
+import pickle
 
 print("[INFO] loading encodings + face detector...")
+
+
 data = pickle.loads(open("encodings.pickle", "rb").read())
 
 
 def encode_faces(image, boxes):
-    return face_recognition.face_encodings(image, boxes)
+    return face_recognition.face_encodings(image, boxes, 10)
 
 
 def find_faces(image, encodings, boxes, color):
@@ -18,7 +19,7 @@ def find_faces(image, encodings, boxes, color):
     for encoding in encodings:
         # attempt to match each face in the input image to our known
         # encodings
-        matches = face_recognition.compare_faces(data["encodings"], encoding)
+        matches = face_recognition.compare_faces(data["encodings"], encoding, 0.56)
         name = "Unknown"
 
         # check to see if we have found a match
@@ -89,8 +90,8 @@ def get_boxes(detect_area, image):
         cascade = "haarcascade_profileface.xml".format(haarcascade)
 
     detector = cv2.CascadeClassifier('{}/{}'.format(haarcascade, cascade))
-    rects = detector.detectMultiScale(image, scaleFactor=1.1,
-                                      minNeighbors=7, minSize=(25, 25))
+    rects = detector.detectMultiScale(image, scaleFactor=1.05,
+                                      minNeighbors=15, minSize=(20, 20))
     boxes = [(y, x + w, y + h, x) for (x, y, w, h) in rects]
     return boxes
 
