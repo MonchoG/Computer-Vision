@@ -18,7 +18,7 @@ def string_to_image(string, title):
     fh.close()
 
 
-HOST = '192.168.178.208'
+HOST = '192.168.43.134'
 PORT = 9999
 
 try:
@@ -81,9 +81,12 @@ def client_thread(conn, addr):
             timestamp = time.strftime('%b-%d-%Y_%H%M%S', t)
 
             cv2.imwrite('{}.png'.format(timestamp), frame)
-            result = recognizer.find_face(frame)
+            print("[ INFO ] Starting recognizer for {}".format(addr[0]))
+
+            result = recognizer.find_face(frame, scaleFactor=1.1, minNeighbors=7, minSize=(35, 35), reSample=3)
             cv2.imwrite('result_{}.png'.format(timestamp), result)
-            time.sleep(20)
+            print("[ INFO ] Finished recognizer for {}".format(addr[0]))
+            time.sleep(10)
 
     except Exception as exp:
         print(exp)

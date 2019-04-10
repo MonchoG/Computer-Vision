@@ -29,7 +29,7 @@ for (i, imagePath) in enumerate(imagePaths):
     boxes = tool.compute_face_locations(rgb, 'hog')
     print("[INFO] Encoding face")
     # compute the facial embedding for the face
-    encodings = tool.encode_faces(rgb, boxes)
+    encodings = tool.encode_faces(rgb, boxes, reSample=20)
 
     # loop over the encodings
     for encoding in encodings:

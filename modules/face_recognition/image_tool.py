@@ -1,29 +1,34 @@
+import pickle
+
 import cv2
 import face_recognition
 from cv2.data import haarcascades as haarcascade
-import pickle
 
 print("[INFO] loading encodings + face detector...")
-
 
 data = pickle.loads(open("encodings.pickle", "rb").read())
 
 
-def encode_faces(image, boxes):
-    return face_recognition.face_encodings(image, boxes, 10)
+def encode_faces(image, boxes, reSample = 1):
+    print(" [ INFO ] Starting encoding")
+    encodings = face_recognition.face_encodings(image, boxes, reSample)
+    print(" [ INFO ] Done encoding")
+    return encodings
 
 
 def find_faces(image, encodings, boxes, color):
+    print(" [ INFO ] Starting find_faces")
     names = []
     (b, g, r) = color
     for encoding in encodings:
         # attempt to match each face in the input image to our known
         # encodings
-        matches = face_recognition.compare_faces(data["encodings"], encoding, 0.56)
+        matches = face_recognition.compare_faces(data["encodings"], encoding, 0.55)
         name = "Unknown"
 
         # check to see if we have found a match
         if True in matches:
+            print(" [ INFO ] Founds matches")
             # find the indexes of all matched faces then initialize a
             # dictionary to count the total number of times each face
             # was matched
@@ -50,6 +55,9 @@ def find_faces(image, encodings, boxes, color):
         y = top - 15 if top - 15 > 15 else top + 15
         cv2.putText(image, name, (left, y), cv2.FONT_HERSHEY_SIMPLEX,
                     0.75, (b, g, r), 2)
+
+    print(" [ INFO ] Returning matches")
+
     return image
 
 
@@ -77,7 +85,7 @@ def extract_face(image, name):
         cv2.imwrite('face_{}_{}.jpg'.format(cascade, name), face_roi)
 
 
-def get_boxes(detect_area, image):
+def get_boxes(detect_area, image, scaleFactor=1.1, minNeighbors=40, minSize=(35, 35)):
     cascade = ''
     if detect_area.__contains__('profile_face'):
         cascade = "haarcascade_profileface.xml".format(haarcascade)
@@ -89,13 +97,20 @@ def get_boxes(detect_area, image):
         image = cv2.flip(image, +1)
         cascade = "haarcascade_profileface.xml".format(haarcascade)
 
+    print(" [ INFO ] Starting detector : {}".format(cascade))
     detector = cv2.CascadeClassifier('{}/{}'.format(haarcascade, cascade))
-    rects = detector.detectMultiScale(image, scaleFactor=1.05,
-                                      minNeighbors=15, minSize=(20, 20))
+    rects = detector.detectMultiScale(image, scaleFactor=scaleFactor,
+                                      minNeighbors=minNeighbors, minSize=minSize)
     boxes = [(y, x + w, y + h, x) for (x, y, w, h) in rects]
+    print(" [ INFO ] Finished detector : num of boxes {}".format(len(boxes)))
+
     return boxes
 
 
 # The same as get boxes, but this uses face_recognition NN to detect
 def compute_face_locations(image, model):
-    return face_recognition.face_locations(image, model='{}'.format(model))
+    print("[ INFO ] Computing face locations")
+    locations = face_recognition.face_locations(image, model='{}'.format(model))
+    print("[ INFO ] Finished Computing face locations")
+
+    return locations
