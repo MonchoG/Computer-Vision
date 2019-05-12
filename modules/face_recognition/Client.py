@@ -7,24 +7,25 @@ import cv2
 import picamera.array
 
 # initialize the camera and grab a reference to the raw camera capture
-# camera = PiCamera()
-
+camera = PiCamera()
 
 # allow the camera to warmup
 time.sleep(1.0)
-
+# connect to server
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect(('192.168.178.208', 9999))
 connection = client_socket.makefile('wb')
 
 img_counter = 0
-
+# encoding parameters
 encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
 with picamera.PiCamera() as camera:
+    # setup camera
     camera.resolution = (2592, 1952)
     camera.framerate = 15
     #camera.start_preview()
     time.sleep(2)
+    # infinite loop that will send frame every 20 seconds
     while True:
         with picamera.array.PiRGBArray(camera) as stream:
             camera.capture(stream, format='bgr')
